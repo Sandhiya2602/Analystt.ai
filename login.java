@@ -11,7 +11,7 @@ public class login {
 	public static void main(String[] args) throws InterruptedException 
 	{
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://online.actitime.com/ss1/timetrack/enter.do");
+		driver.get("https://online.actitime.com/as1");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
